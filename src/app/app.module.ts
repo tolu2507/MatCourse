@@ -10,6 +10,7 @@ import { BlogsComponent } from './Blogs/blogs/blogs.component';
 import { SingleBlogComponent } from './Blogs/single-blog/single-blog.component';
 import { PostComponent } from './Blogs/post/post.component';
 import { HomeComponent } from './Home/home/home.component';
+import { HomepageComponent } from './Home/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './Home/home/home.component';
     BlogsComponent,
     SingleBlogComponent,
     PostComponent,
-    HomeComponent
+    HomeComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
