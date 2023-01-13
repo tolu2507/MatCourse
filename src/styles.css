@@ -15,7 +15,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin: auto;
 }
 .example-card {
-  max-width: 500px;
+  width: 500px;
+  padding: 50px;
+  height: 500px;
 }
 
 .example-header-image {
