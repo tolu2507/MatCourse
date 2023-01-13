@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
     this.isLoading = true;
     this.details = [...this.details,{email:email,password:password} ]
     setTimeout(() => {
-      this.router.navigate(['/'])
+      this.router.navigate(['/home'])
     }, 3000);
   }
 }
